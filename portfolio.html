@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32a1517b87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <p class ="portfolio" > PORTFOLIO </p>
+                <ul id="sidemenu">
+                    <li class="header"><a href="#"> Home </a> </li>
+                    <li><a href="#about"> About </a> </li>
+                    <li><a href="#services"> Internships</a> </li>
+                    <li><a href="#"> Projects </a> </li>
+                    <li><a href="#Contact"> Contact</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            
+            <h1>Hello! <br>I'm <span>Kanishka</span> Chouhan </h1>
+            <P> Web Developer</P>
+            </div>
+        </div>
+    </div>
+
+     
+
+    <div class="parallax"></div>
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                     <img src="mypic.jpg" >
+                </div>
+                <div class="about-col-2">
+                     <h1 class="sub-title"> About me</h1>
+                     <p class="para">
+                        Curious, analytical, and ambitious computer science student passionate 
+                        about the intersection of technology and innovation.<br>
+                         Eager to work in an organization who would offer me an opportunity 
+                         for career advancement and professional growth and to practically utilize 
+                         my theoretical and practical knowledge through which I can enhance my skills and  
+                         strengthen my performance along with overal development of the organization.
+                
+                     </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p> 
+                        <p class="tab-links"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('activity')">Cirricular Activity</p>
+
+
+                     </div>
+                     <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web development </span><br> HTML, CSS, Javascript </li>
+                                
+                            <li><span>Programming Languages </span> <br> Python, C, C++ </li>
+                          
+                            <li><span>Android Development </span> <br> XML, Kotlin </li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="activity">
+                        <ul>
+                            <li><span> Participated in Science Exhibition at Medi-Caps University<br> and were in Top 10 among all the participants.  </li>
+                            <li><span>Member of Management Team at annual fest "Moonstone" <br>of Medi-Caps University <span> </li>
+                                
+                             <li><span>Executive Member of Science Club of our College <span> </li>
+                                 <li><span>Participated in District level Carrom Compitition <span> </li>
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span> B.Tech CSE (2021-2025)</span> <br>8.37 Cgpa<br> Medi-Caps University, Indore  </li>
+                                
+                            <li><span>12th Grade (2020-2021)</span> <br>PCM - 85.6% <br> Achiever's Academy, Pithampur</li>
+                          
+                            <li><span>10th Grade (2018-2019) </span> <br>85% <br> Saint Francis H.S. School, PIthampur</li>
+                        </ul>
+                     </div>
+                </div>
+                    
+            </div>     
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> Internships and Trainings</h1>
+        <div class="services-list">
+                 <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                   <h2>CCNAv7</h2>
+                   <p>CNAv7: Introduction to Networks <br>
+                    1 Jun, 2024  -  5 Jul, 2024<br>
+                    Key Skills: Computer Networking </p>
+                    <a href="https://drive.google.com/file/d/1q23v8qnDkcDchpcT3XPz0N64keJAQt0E/view?usp=sharing"target="_blank"> Certificate link</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Virtual Intership</h2>
+                    <p>Android Developer Virtual Intership<br>
+                     1 Jan, 2024  -  March, 2024<br>
+                     Key Skills: Android Development</p>
+                     <a href="https://drive.google.com/file/d/1x6qvpMexNbUHk78AGNYrp3g6ARZm3J_K/view?usp=sharing"target="_blank"> Certificate link</a>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>In-House Intership</h2>
+                    <p>Exploratory Data Analysis by Python<br>
+                     June 2023<br>
+                     Medi-Caps University</p>
+                     <a href="https://drive.google.com/file/d/1xRxucZ7souw4RSCYKKvyuOI_ZQGWQfQB/view?usp=sharing"target="_blank"> Certificate link</a>
+                  </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+       <!----- <div  id="projects">
+            <div class="container">
+                <h1 class="sub-title"> My Projects</h1>
+                <div >
+
+                </div>
+            
+
+
+
+        </div>
+     </div>   ---->
+
+
+
+
+
+
+
+        <div id="Contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title"> Contact me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> kanishkachouhan497@gmail.com </p>
+                        <p> <i class="fa-solid fa-phone"></i> 6261159670 </p>
+                        <div class="social-icons">
+                            <a href="https://x.com/KanishkaCh35722" target="blank"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/kanishka_chouhan_/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/kanishkachouhan27/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="Kanishka_Resume_.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Please enter your name" required>
+                            <input type="text" name="email" placeholder="Please enter your E-mail" required>
+                            <textarea name="Message" rows="6" placeholder="Type your message here"></textarea>
+                            <button type="submit" class="btn btn2"> Submit</button>
+                        </form>
+                        <span id="msg"> </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+
+<script> 
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right ="0"
+
+}
+function closemenu(){
+    sidemenu.style.right ="-200px"
+
+}
+
+</script><script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwRU0b55p1WbTbT5NiW-Zn9RKbMqpXID5S3gLbJW8_0n_nFV1uCHQotxZ8cNYwMrcBe/exec'
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                console.log('Response received:', response);
+                if (response.ok) {
+                    msg.textContent = 'Message sent successfully';
+                    setTimeout(() => {
+                        msg.textContent = '';
+                    }, 5000);
+                    form.reset();
+                } else {
+                    throw new Error('Network response was not ok.');
+                }
+            })
+            .catch(error => {
+                console.error('Error!', error.message);
+                msg.textContent = 'Error submitting form. Please try again later.';
+            });
+    });
+  </script>
+
+</body>
+</html>
